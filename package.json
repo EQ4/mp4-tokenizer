@@ -2,9 +2,9 @@
   "name": "mp4transform",
   "version": "0.0.0",
   "description": "Transform an MP4 file, atom-by-atom.",
-  "main": "lib/atom.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node lib/index.js samplefiles/test.mp4"
   },
   "keywords": [
     "mp4"
