@@ -1,8 +1,14 @@
 var ns = module.exports
   , run = !module.parent
   , fs = require('fs')
-  , indent = require('./indent')
-  , MP4Tokenizer = require('./mp4-tokenizer')
+  , MP4Tokenizer = require('../lib/mp4-tokenizer')
+
+
+function indent(level) {
+  var t = ''
+  for (var c=0; c<level; ++c) t += '  '
+  return t
+}
 
 
 function logAtom(atom) {
