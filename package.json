@@ -10,5 +10,8 @@
     "mp4"
   ],
   "author": "Jeffrey Wescott <jeffrey@cine.io>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": [
+    "stream-tokenizr"
+  ]
 }
