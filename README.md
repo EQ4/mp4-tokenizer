@@ -7,6 +7,12 @@ Streaming MP4 tokenizer that emits individual mp4 atoms.
 This module allows you to open an MP4 file as a readable stream, emitting
 atoms as the stream is being read without unnecessary buffering.
 
+### Installation
+
+```bash
+$ npm install mp4-tokenizer
+```
+
 ### Usage
 
 ```JavaScript
