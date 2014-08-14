@@ -1,6 +1,6 @@
 {
   "name": "mp4-tokenizer",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Streaming MP4 tokenizer that emits individual mp4 atoms.",
   "repository": "git@github.com:cine-io/mp4-tokenizer.git",
   "main": "./lib/mp4-tokenizer.js",
